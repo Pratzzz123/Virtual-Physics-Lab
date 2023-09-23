@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Physics Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://kit.fontawesome.com/ad12e89792.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Montserrat:ital,wght@0,400;1,100;1,200&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar_container">
+      <a href="index.html" id="navbar_logo">
+        <div><img src="images/logo2.png" alt="" srcset=""></div>Virtual Physics Lab
+      </a>
+      <div class="navbar_toggle" id="mobile_menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar_menu">
+        <li class="navbar_items"><a href="index.html" class="navbar_links">Home</a></li>
+        <li class="navbar_items"><a href="about2.html" class="navbar_links">About</a></li>
+        <li class="navbar_items"><a href="contact.html" class="navbar_links">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main section -->
+  <div class="main">
+    <div class="main_container">
+      <div class="main_content">
+        <h1>Virtual Physics</h1>
+        <h2>Laboratory</h2>
+        <p>Understanding Physics experiments with Interactive Simulations</p>
+        <button class="main_btn"><a href="#sims">Get Started</a></button>
+      </div>
+      <div class="main_img_container">
+        <img src="images/pic1.svg" alt="pic" id="main_img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Simulations -->
+  <div class="simulations" id="sims">
+    <h1>Experiments</h1>
+    <div class="simulations_container">
+      <div class="simulations_cards">
+        <h2>Oscillations of spring mass system</h2>
+
+        <img src="images/oscll.png" alt="" srcset="">
+        <p>Simulate the Damped, undamped and critically damped cases of oscillation of spring mass system with customized values of mass, spring constant, zeta and g.</p>
+        <a href="sim1_theory.html"><button>Open Simulator</button></a>
+      </div>
+
+      <div class="simulations_cards">
+        <h2>Hall Effect</h2>
+
+        <img src="images/hall.png" alt="" srcset="">
+        <p>Understand the hall effect with interactive models of vpython.</p>
+        <a href="sim2_theory.html"><button>Open Simulator</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <!-- <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link_wrapper">
+                <div class="footer_link_items">
+                    <h2>About Us</h2>
+                    <a href="/">How we work</a>
+                    <a href="/">Our mission</a>
+                    <a href="/">Our Aim</a>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
